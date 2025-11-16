@@ -1,0 +1,283 @@
+﻿namespace DB_Project1
+{
+    partial class EmployeeForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.ManageProductsButtoon = new Guna.UI2.WinForms.Guna2Button();
+            this.ManageInventoryButton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.emailLabel = new System.Windows.Forms.Label();
+            this.phoneLabel = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panel1.Controls.Add(this.guna2Button2);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.ManageProductsButtoon);
+            this.panel1.Controls.Add(this.ManageInventoryButton);
+            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Location = new System.Drawing.Point(11, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(216, 476);
+            this.panel1.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(65, 87);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 35);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Portal";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(34, 40);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(159, 35);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Employee\'s";
+            // 
+            // ManageProductsButtoon
+            // 
+            this.ManageProductsButtoon.BorderColor = System.Drawing.Color.Transparent;
+            this.ManageProductsButtoon.BorderRadius = 14;
+            this.ManageProductsButtoon.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.ManageProductsButtoon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ManageProductsButtoon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ManageProductsButtoon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ManageProductsButtoon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ManageProductsButtoon.FillColor = System.Drawing.Color.Gainsboro;
+            this.ManageProductsButtoon.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.ManageProductsButtoon.ForeColor = System.Drawing.Color.Black;
+            this.ManageProductsButtoon.Location = new System.Drawing.Point(29, 342);
+            this.ManageProductsButtoon.Name = "ManageProductsButtoon";
+            this.ManageProductsButtoon.Size = new System.Drawing.Size(197, 27);
+            this.ManageProductsButtoon.TabIndex = 2;
+            this.ManageProductsButtoon.Text = "Manage Products";
+            this.ManageProductsButtoon.Click += new System.EventHandler(this.ManageProductsButtoon_Click);
+            // 
+            // ManageInventoryButton
+            // 
+            this.ManageInventoryButton.BorderColor = System.Drawing.Color.Transparent;
+            this.ManageInventoryButton.BorderRadius = 14;
+            this.ManageInventoryButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.ManageInventoryButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ManageInventoryButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ManageInventoryButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ManageInventoryButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ManageInventoryButton.FillColor = System.Drawing.Color.Gainsboro;
+            this.ManageInventoryButton.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.ManageInventoryButton.ForeColor = System.Drawing.Color.Black;
+            this.ManageInventoryButton.Location = new System.Drawing.Point(29, 286);
+            this.ManageInventoryButton.Name = "ManageInventoryButton";
+            this.ManageInventoryButton.Size = new System.Drawing.Size(197, 27);
+            this.ManageInventoryButton.TabIndex = 1;
+            this.ManageInventoryButton.Text = "Manage Inventory";
+            this.ManageInventoryButton.Click += new System.EventHandler(this.ManageCustomersButton_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 14;
+            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2Button1.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.Location = new System.Drawing.Point(29, 232);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(197, 27);
+            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.Text = "Manage Orders";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel2.Controls.Add(this.nameLabel);
+            this.panel2.Controls.Add(this.emailLabel);
+            this.panel2.Controls.Add(this.phoneLabel);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(227, 10);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(773, 475);
+            this.panel2.TabIndex = 1;
+            // 
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameLabel.Location = new System.Drawing.Point(138, 219);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(134, 45);
+            this.nameLabel.TabIndex = 6;
+            this.nameLabel.Text = "Name:";
+            this.nameLabel.Click += new System.EventHandler(this.nameLabel_Click);
+            // 
+            // emailLabel
+            // 
+            this.emailLabel.AutoSize = true;
+            this.emailLabel.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailLabel.Location = new System.Drawing.Point(139, 274);
+            this.emailLabel.Name = "emailLabel";
+            this.emailLabel.Size = new System.Drawing.Size(136, 45);
+            this.emailLabel.TabIndex = 5;
+            this.emailLabel.Text = "Email:";
+            // 
+            // phoneLabel
+            // 
+            this.phoneLabel.AutoSize = true;
+            this.phoneLabel.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phoneLabel.Location = new System.Drawing.Point(138, 331);
+            this.phoneLabel.Name = "phoneLabel";
+            this.phoneLabel.Size = new System.Drawing.Size(137, 45);
+            this.phoneLabel.TabIndex = 4;
+            this.phoneLabel.Text = "Phone:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(231, 396);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(337, 45);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Select Your Choice";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(172, 150);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(466, 45);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Cafe Management System";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(358, 97);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 45);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "To";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(297, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(176, 45);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Welcome";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderRadius = 14;
+            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2Button2.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.Location = new System.Drawing.Point(40, 428);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(128, 27);
+            this.guna2Button2.TabIndex = 10;
+            this.guna2Button2.Text = "Log Out";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // EmployeeForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(1011, 494);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "EmployeeForm";
+            this.Text = "EmployeeForm";
+            this.Load += new System.EventHandler(this.EmployeeForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button ManageProductsButtoon;
+        private Guna.UI2.WinForms.Guna2Button ManageInventoryButton;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.Label phoneLabel;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+    }
+}
